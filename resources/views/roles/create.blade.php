@@ -13,8 +13,8 @@
   <form action="{{ url ('roles')}}" method="POST">
     @csrf
     <div class="form-group">
-      <label for="title">Title:</label>
-      <input type="text" class="form-control" id="title" placeholder="Enter Title" name="title">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
     </div>
     <div class="form-group">
       <label for="description">Description:</label>

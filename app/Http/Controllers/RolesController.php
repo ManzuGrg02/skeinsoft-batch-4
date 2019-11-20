@@ -24,8 +24,10 @@ class RolesController extends Controller
 
     public function store(Request $request)
     {
+
+        //dd($request->all());
         $role = new role;
-        $role->title = $request->title;
+        $role->name = $request->name;
         $role->description= $request->description;
         $role->save();
     }
